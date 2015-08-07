@@ -25,6 +25,7 @@
   <script type="text/javascript" src="js/services/services.js"></script>
   <script type="text/javascript" src="js/controllers/master-ctrl.js"></script>
   <script type="text/javascript" src="js/controllers/postlist-ctrl.js"></script>
+  <script type="text/javascript" src="js/controllers/post-ctrl.js"></script>
   <script type="text/javascript" src="js/directives/loading.js"></script>
   <script type="text/javascript" src="js/directives/widget-body.js"></script>
   <script type="text/javascript" src="js/directives/widget-footer.js"></script>
@@ -113,14 +114,14 @@
               <div class="item dropdown">
               <!-- the post button -->
                 <a href="#/">
-                  <button class="button-post">Post</button>
+                  <button class="button-post">Create Post</button>
                 </a>
               </div>
             </div>
             <!-- the searchbox -->
             <div class="searchbox pull-right">
               <form ng-submit="submitSearch()">
-                <input type="text" class="form-control text-center" placeholder="SEARCH ME" ng-model="keywords">
+                <input type="text" class="form-control text-center" placeholder="SEARCH FOR" ng-model="keywords">
               </form>
             </div>
             <div class="meta">

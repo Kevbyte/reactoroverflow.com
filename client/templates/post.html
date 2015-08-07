@@ -1,0 +1,23 @@
+<div id='container' ng-controller='PostCtrl'>
+  
+
+<div ng-repeat="post in data.posts" class="col-md-12">
+  <rd-widget>
+    <rd-widget-body>
+      <div class="title" class="col-md-12">
+        {{post.title}}
+      </div>
+      <div class="author">
+        {{post.author}}
+      </div>
+      <div class="content">
+        {{post.content}}
+      </div>
+      <div class="tags">
+        {{post.tags}}
+      </div>
+    </rd-widget-body>
+  </rd-widget>
+</div>
+
+</div>

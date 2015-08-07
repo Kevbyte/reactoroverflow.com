@@ -1,6 +1,9 @@
 .button-post {
 height: 60px;
+margin-right: 50px;
 }
 .searchbox {
 margin-top: 13px;
+width: 300px;
+margin-right: 200px;
 }
